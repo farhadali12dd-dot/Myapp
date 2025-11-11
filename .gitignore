@@ -1,0 +1,34 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Rust build artifacts
+contracts/target/
+**/target/
+Cargo.lock
+
+# Cargo registry (but preserve Replit files)
+.local/share/.cargo/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
